@@ -12,7 +12,7 @@ function get_files_for_chat_and_include() {
             let scriptTwo = document.createElement('script');
 
             let addScripts = new Promise(function (resolve, reject) {
-                script.src = '/services/js/main.js';
+                script.src = '/services/js/main.js?v=1';
                 scriptTwo.src = '/services/js/widgetForm.min.js';
                 document.getElementsByTagName('head')[0].appendChild(script);
                 document.getElementsByTagName('head')[0].appendChild(scriptTwo);

@@ -25,7 +25,7 @@ function get_files_for_chat_and_include() {
             let appWindow = window;
             addScripts.then(mew => {
                 if(mew.status) {
-                    appWindow.widgetForm({forms: ['modal-form-appliancer-plan', 'modal-callback-vertical', 'schedule-step', 'callback-vertical', 'connect-with-plumber', 'connect-with-plumber-quote', 'connect-with-plumber-energency', 'callback-vertical-whis-postcode', 'alp-connect-specialist-b-r', 'alp-connect-specialist', 'pro-connect-spec-border', 'pumb-schedule-service-b-r', 'subscribe-form', 'schedule-step-new', 'hvac-modal-form', 'hvac-horizont-form']});
+                    appWindow.widgetForm({forms: ['subscribe-form-appliancer', 'modal-form-appliancer-plan', 'modal-callback-vertical', 'schedule-step', 'callback-vertical', 'connect-with-plumber', 'connect-with-plumber-quote', 'connect-with-plumber-energency', 'callback-vertical-whis-postcode', 'alp-connect-specialist-b-r', 'alp-connect-specialist', 'pro-connect-spec-border', 'pumb-schedule-service-b-r', 'subscribe-form', 'schedule-step-new', 'hvac-modal-form', 'hvac-horizont-form']});
                 }
             });
             // console.log(xhr);
